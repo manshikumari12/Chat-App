@@ -6,8 +6,8 @@ const { Server } = require("socket.io");
 
 const http = require("http");
 const httpServer = http.createServer(app);
-httpServer.listen(8000,()=>{
-    console.log("server is running at port 8000")
+httpServer.listen(5000,()=>{
+    console.log("server is running at port 5000")
 });
 
 
@@ -31,7 +31,6 @@ io.on("connection", (socket) => {
       name: users[socket.id],
     });
   });
-
 
 
   socket.on("disconnect", (message) => {
