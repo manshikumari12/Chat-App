@@ -22,7 +22,7 @@ form.addEventListener("submit", (e)=> {
     messageInput.value = "";
 })
 
-const Username = prompt("ENTER YOUR NAME TO JOIN");
+const Username = prompt("Welcome to chat App😊 enter your name to join");
 socket.emit("new-user-joined", Username);
 
 socket.on("user-joined", (name) => {
