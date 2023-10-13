@@ -10,6 +10,7 @@ body {
     margin: 0px 230px 8px 496px;
     font-size: 40px;
     font-weight: bold;
+    
 }
 
 .container {
@@ -21,7 +22,7 @@ body {
     border: 2px solid black;
     border-radius: 20px 20px;
     margin-bottom: 23px;
-    background-image: url("./image/home\ page.gif");
+    background-color: #06453dd7;
 }
 
 .message {
