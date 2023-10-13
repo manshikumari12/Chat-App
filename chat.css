@@ -88,7 +88,7 @@ body {
 #counter{
     margin: -10px 662px 12px 0px;
     text-align: center;
-    /* margin-top: 1%; */
+    margin-top: 1%;
     /* margin-bottom: 1%; */
 }
 @media only screen and (max-width: 900px) and (min-width: 120px) {
