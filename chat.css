@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-    width: 753px;
+    width: 990px;
     margin: auto;
     height: 60vh;
     padding: 33px;
@@ -22,7 +22,7 @@ body {
     border: 2px solid black;
     border-radius: 20px 20px;
     margin-bottom: 23px;
-    background-color: #06453dd7;
+    background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROIMg4jjU-YQYbaMNdGaqlx0n5wXivNj82dg&usqp=CAU');
 }
 
 .message {
@@ -40,7 +40,7 @@ body {
     float: left;
     color: black;
     font-size: large;
-    background: linear-gradient(to right,#E1BEE7,#29B6F6);
+    background: linear-gradient(to right,#E1BEE7,#740798);
     clear: both;
     border-radius: 15px 15px 15px -0;
 }
@@ -49,7 +49,7 @@ body {
     float: right;
     color:black ;
     font-size: large;
-    background: linear-gradient(to right,#eecda3,#ef629f); ;
+    background: linear-gradient(to right,#e6987b,#b36602); ;
     clear: both;
     border-radius: 15px 15px -0 15px;
 }
@@ -79,7 +79,7 @@ body {
     color: whitesmoke;
 }
 .btn:hover{
-    background-color: black;
+    
     color: beige;
     border: 2px solid black;
     transform: scale(1.05);

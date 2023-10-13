@@ -1,4 +1,4 @@
-const socket = io("http://localhost:5000/", { transports: ["websocket"] });
+const socket = io("https://chat-app-epsi.onrender.com", { transports: ["websocket"] });
 
 const form = document.getElementById("chatbox");
 
